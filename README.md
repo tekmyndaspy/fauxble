@@ -1,4 +1,4 @@
-# Fauxble 1.0.0
+# Fauxble
 A program to automatically alternate between playing videos from folders in folder a and videos in folder b.
 
 # To Use:
