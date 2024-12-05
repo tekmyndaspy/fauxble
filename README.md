@@ -1,5 +1,5 @@
 # Fauxble
-A program to automatically alternate between playing videos from folders in folder a and videos in folder b.
+A program to automatically alternate between playing videos from folders in a main folder and videos in an intermediary folder.
 
 # To Use:
 1. Place intermediary video files in the 'Intermediary' folder.
