@@ -1,4 +1,3 @@
-:: Fauxble Version 1.0.0
 :: Initial version created by tekmyndaspy
 
 @echo off
