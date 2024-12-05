@@ -2,28 +2,28 @@
 A program to automatically alternate between playing videos from folders in folder a and videos in folder b.
 
 # To Use:
-1. Place intermediary video files in the 'Bumpers' folder.
-2. Place main video folders in the 'Shows' folder.
+1. Place intermediary video files in the 'Intermediary' folder.
+2. Place main video folders in the 'Main' folder.
 3. Place main video files in the folders you created in step two.
 4. Run fauxble.cmd.
 
 # Example Directory Tree:
 
 Fauxble Root
-- Shows
-  - show1
-    - show1s1e1.mp4
-    - show1s1e2.mp4
-  - show2
-    - show2s1e1.mp4
-    - show2s1e2.mp4
-  - show3
-    - show3s1e1.mp4
-    - show3s1e2.mp4
-- Bumpers
-  - bumper1.mp4
-  - bumper2.mp4
-  - bumper3.mp4
+- Main
+  - main1
+    - main1v1.mp4
+    - main1v2.mp4
+  - main2
+    - main2v1.mp4
+    - main2v2.mp4
+  - main3
+    - main3v1.mp4
+    - main3v2.mp4
+- Intermediary
+  - intermediary1.mp4
+  - intermediary2.mp4
+  - intermediary3.mp4
 - fauxble.cmd
 - README.md
 
