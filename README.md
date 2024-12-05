@@ -2,8 +2,8 @@
 A program to automatically alternate between playing videos from folders in a main folder and videos in an intermediary folder.
 
 # To Use:
-1. Place intermediary video files in the 'Intermediary' folder.
-2. Place main video folders in the 'Main' folder.
+1. Place intermediary video files in a folder named 'Intermediary' in the same folder the batch script is in.
+2. Place main video folders in the a folder named 'Main' in the same folder the batch script is in.
 3. Place main video files in the folders you created in step two.
 4. Run fauxble.cmd.
 
