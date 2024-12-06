@@ -23,7 +23,7 @@ echo Starting Fauxble.
 
 :chooseshow 
 
-echo Choosing show.
+echo Choosing main category.
 
 :: move to shows directory in same folder as batch file
 cd /d "%~dp0\%maindirectory%"
@@ -41,7 +41,7 @@ echo Moving to !directorylist[%rnd%]!.
 set /a rnd="%random% %%%i% +1"
 cd "!directorylist[%rnd%]!"
 
-echo Choosing episode.
+echo Choosing main video.
 
 :: count total of chosen filetypes and store into array
 set /a "i=0"
@@ -55,7 +55,7 @@ set /a rnd="%random% %%%i% +1"
 
 echo Playing !videolist[%rnd%]!.
 
-:: play random episode
+:: play random video
 start /wait %videoplayer% "!videolist[%rnd%]!"
 
 :: remove selected video from array
@@ -63,7 +63,7 @@ set videolist[%rnd%]=ERRORNOVIDEOCHOSEN
 
 
 
-echo Choosing bumper.
+echo Choosing intermediary.
 
 cd /d "%~dp0\%intermediarydirectory%"
 
