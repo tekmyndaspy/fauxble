@@ -4,12 +4,14 @@
 
 :: set videoplayer and commandline flags to play video
 :: set directories to pull videos from
+:: set wait period
 :: videoplayer variable takes the command to run the videoplayer and flags to pass to the videoplayer and nothing else
 :: filetypes variable accepts a list of filetypes delineated by spaces and using stars in place of the potential filename
 set videoplayer=mpv --fs --volume=50
 set filetypes=*.mp4 *.webm
 set maindirectory=Main
 set intermediarydirectory=Intermediary
+set waitperiod=3
 
 :: evaluate !! variable evaluations
 setlocal enableDelayedExpansion
@@ -85,7 +87,8 @@ start /wait %videoplayer% "!videolist[%rnd%]!"
 :: remove selected video from array
 set videolist[%rnd%]=ERRORNOVIDEOCHOSEN
 
-timeout /t 10
+:: give period between intermediary and main video to give time to turn off script
+timeout /t %waitperiod%
 
 :: jump to :chooseshow label near beginning of program
 goto chooseshow
