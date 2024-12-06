@@ -9,7 +9,7 @@ A program to automatically alternate between playing videos from folders in a ma
 
 # Example Directory Tree:
 
-`Fauxble Root  
+Fauxble Root  
 |- Main  
 |  |- main1  
 |  |  |- main1v1.mp4  
@@ -25,7 +25,7 @@ A program to automatically alternate between playing videos from folders in a ma
 |  |- intermediary2.mp4  
 |  |- intermediary3.mp4  
 |- fauxble.cmd  
-|- README.md  `
+|- README.md
 
 # To Close:
 1. Close video player until the script window says it is waiting for a time period.
