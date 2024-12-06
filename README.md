@@ -40,5 +40,5 @@ Fauxble Root
 
 # Other Notes:
 fauxble.cmd is commented quite a bit. near the top of the file are variables to allow one to set the video player to be used and the file types that are accepted. 
-by default, fauxble uses mpv and accepts mp4 files.
+by default, fauxble uses mpv and accepts mp4 and webm files.
 the script will not play videos that have exclamation points in the filename, so ensure that filenames are changed accordingly
