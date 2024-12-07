@@ -6,14 +6,14 @@
 
 :: set videoplayer and commandline flags to play video
 :: set directories to pull videos from
-:: set wait period
+:: set wait period between intermediary and main videos
 :: videoplayer variable takes the command to run the videoplayer and flags to pass to the videoplayer and nothing else
 :: filetypes variable accepts a list of filetypes delineated by spaces and using stars in place of the potential filename
 set videoplayer=mpv --fs --volume=50
 set filetypes=*.mp4 *.webm
 set maindirectory=Main
 set intermediarydirectory=Intermediary
-set waitperiod=3
+set waitperiod=0
 
 :: evaluate !! variable evaluations
 setlocal enableDelayedExpansion
