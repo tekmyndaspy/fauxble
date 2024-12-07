@@ -1,6 +1,6 @@
 :: Initial version created by tekmyndaspy
 
-::@echo off
+@echo off
 
 :: set videoplayer and commandline flags to play video
 :: set directories to pull videos from
