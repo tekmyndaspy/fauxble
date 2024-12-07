@@ -28,15 +28,7 @@ Fauxble Root
 |- README.md
 
 # To Close:
-1. Close video player until the script window says it is waiting for a time period.
-2. During the time period, press Ctrl+C, then press Y when it asks to terminate the batch job.
-
-# To Close if Previous Method Does Not Work:
-1. Open Task Manager.
-2. Close console window associated with Fauxble.
-
-# To Close In Dire Straits:
-1. Power down host machine.
+1. Close window script is being run in. Windows opened by the script will be closed automatically.
 
 # Other Notes:
 fauxble.cmd is commented quite a bit. near the top of the file are variables to allow one to set the video player to be used and the file types that are accepted. 
