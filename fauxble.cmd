@@ -54,7 +54,7 @@ for %%f in (%filetypes%) do (
 :: play random video in video array
 set /a rnd="%random% %%%i% +1"
 echo Playing !videolist[%rnd%]!.
-start /wait %videoplayer% "!videolist[%rnd%]!"
+start /wait /b %videoplayer% "!videolist[%rnd%]!"
 
 :: remove selected video from array
 set videolist[%rnd%]=ERRORNOVIDEOCHOSEN
@@ -75,7 +75,7 @@ for %%f in (%filetypes%) do (
 :: get random intermediary video
 set /a rnd="%random% %%%i% +1"
 echo Playing !videolist[%rnd%]!.
-start /wait %videoplayer% "!videolist[%rnd%]!"
+start /wait /b %videoplayer% "!videolist[%rnd%]!"
 
 :: remove selected video from array
 set videolist[%rnd%]=ERRORNOVIDEOCHOSEN
