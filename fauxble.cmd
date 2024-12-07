@@ -9,7 +9,7 @@
 :: set wait period between intermediary and main videos
 :: videoplayer variable takes the command to run the videoplayer and flags to pass to the videoplayer and nothing else
 :: filetypes variable accepts a list of filetypes delineated by spaces and using stars in place of the potential filename
-set videoplayer=mpv --fs --volume=50
+set videoplayer=mpv --fs --af=loudnorm
 set filetypes=*.mp4 *.webm
 set maindirectory=Main
 set intermediarydirectory=Intermediary
