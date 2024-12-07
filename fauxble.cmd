@@ -1,6 +1,6 @@
 :: Initial version created by tekmyndaspy
 
-@echo off
+::@echo off
 
 :: set videoplayer and commandline flags to play video
 :: set directories to pull videos from
@@ -37,10 +37,9 @@ for /d %%d in (*) do (
 	set "directorylist[!i!]=%%~d"
 )
 
-echo Moving to !directorylist[%rnd%]!.
-
-:: move to random folder in shows folder
+:: move to random folder in main folder array
 set /a rnd="%random% %%%i% +1"
+echo Moving to !directorylist[%rnd%]!.
 cd "!directorylist[%rnd%]!"
 
 echo Choosing main video.
@@ -52,12 +51,9 @@ for %%f in (%filetypes%) do (
 	set "videolist[!i!]=%%~f"
 )
 
-:: get random number between 1 and array size
+:: play random video in video array
 set /a rnd="%random% %%%i% +1"
-
 echo Playing !videolist[%rnd%]!.
-
-:: play random video
 start /wait %videoplayer% "!videolist[%rnd%]!"
 
 :: remove selected video from array
@@ -76,12 +72,9 @@ for %%f in (%filetypes%) do (
 	set "videolist[!i!]=%%~f"
 )
 
-:: get random number between 1 and array size
+:: get random intermediary video
 set /a rnd="%random% %%%i% +1"
-
 echo Playing !videolist[%rnd%]!.
-
-:: play random bumper
 start /wait %videoplayer% "!videolist[%rnd%]!"
 
 :: remove selected video from array
