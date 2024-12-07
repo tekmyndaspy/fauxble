@@ -1,4 +1,6 @@
 :: Initial version created by tekmyndaspy
+:: "smoking pot and programming camp, i don't give a shit" from casket
+:: "fuck batch. me and my homies all hate batch" from tekmyndaspy
 
 @echo off
 
