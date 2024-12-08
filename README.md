@@ -1,3 +1,5 @@
+# THIS PROGRAM HAS BEEN SUPERCEDED BY [FAUXBLE-PY](https://github.com/tekmyndaspy/fauxble-py)
+
 # Fauxble
 A program to automatically alternate between playing videos from folders in a main folder and videos in an intermediary folder.
 
